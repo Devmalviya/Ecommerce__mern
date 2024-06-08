@@ -8,6 +8,7 @@ import authRoutes from "./routers/authRoute.js";
 import categoryRoutes from "./routers/categoryRoutes.js";
 import productRoute from "./routers/productRoutes.js";
 import path from "path";
+import { fileURLToPath } from "url"; 
 
 import cors from "cors";
 
